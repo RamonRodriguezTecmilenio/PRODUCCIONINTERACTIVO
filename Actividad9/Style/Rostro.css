@@ -1,0 +1,37 @@
+svg {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.circle {
+    fill: #f88dc2;
+    stroke: black;
+}
+
+.eye {
+    fill: black;
+    stroke: black;
+}
+
+.mouth {
+    fill: #ff69b4;
+    stroke: black;
+}
+
+.eyebrow {
+    stroke: black;
+}
+
+.eye:hover {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
